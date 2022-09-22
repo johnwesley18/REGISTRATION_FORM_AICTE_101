@@ -1,5 +1,5 @@
 let namuse=document.getElementById("user-form");
-const sanjan1234 =() => {
+const john12345 =() => {
     let asdfghj= localStorage.getItem("user-entries");
     if(asdfghj){
         asdfghj=JSON.parse(asdfghj);
@@ -10,9 +10,9 @@ const sanjan1234 =() => {
     return asdfghj;
 }
 
-let entryres =sanjan1234();
+let entryres =john1234();
 const sannn1 =() =>{
-    const entries=sanjan1234();
+    const entries=john1234();
     const tableEntries=entries.map((entry) => {
         
         const nameCell= `<td class='border px-4 py-2'>${entry.name}</td>`;
